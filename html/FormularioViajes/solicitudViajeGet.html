@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="solicitudViajes.css">
+    <title>Formulario Viaje</title>
+</head>
+
+<body>
+    <h2>Formulario De Viaje</h2>
+    <br>
+        <form action="formularioEnviado.html" method="get">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+            <br>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+            <br>
+            <label for="DNI">D.N.I</label>
+            <input type="number" name="DNI" id="DNI" placeholder="D.N.I">
+            <br>
+            <label for="cp"></label>
+            <input type="number" name="CodigoPostal" id="cp" placeholder="CodigoPostal" pattern="[0,9]{4}" tittle="Ingrese 4 numeros entre 0 y 9 "required>
+            <br>
+            <label for="fechan">Fecha de Nacimiento</label>
+            <input type="date" name="FechaNacimiento" id="fechan">
+        </div>
+        <div id="prov">
+            <select name="Provincia" >
+                <option aria-placeholder="" default hidden>--Seleccione Una Provincia--</option>
+                <option value="1">Buenos Aires</option>
+                <option value="2">Mendoza</option>
+                <option value="3">Formoza</option>
+                <option value="4">Chaco</option>
+                <option value="5">Salta</option>
+                <option value="6">Neuquen</option>
+                <option value="7">Catamarca</option>
+                <option value="8">Cordoba</option>
+            </select>
+        </div>
+        <div id="mes">
+            <input type="radio" name="mes" value="1">Enero<br>
+            <input type="radio" name="mes" value="2">Febrero<br>
+            <input type="radio" name="mes" value="3">Marzo<br>
+            <input type="radio" name="mes" value="4">Abril<br>
+            <input type="radio" name="mes" value="5">Mayo<br>
+            <input type="radio" name="mes" value="6">Junio<br>
+            <input type="radio" name="mes" value="7">Julio<br>
+            <input type="radio" name="mes" value="8">Agosto<br>
+            <input type="radio" name="mes" value="9">Septiembre<br>
+            <input type="radio" name="mes" value="10">Octubre<br>
+            <input type="radio" name="mes" value="11">Noviembre<br>
+            <input type="radio" name="mes" value="12">Diciembre<br>
+        </div>
+        <div id="mascota" >
+            <label for="">¿Qué mascota llevará?</label>
+            <input type="checkbox" name="Perro" id="perro">Perro<br>
+            <input type="checkbox" name="Gato" id="gato">Gato<br>
+            <input type="checkbox" name="Conejo" id="conejo">Conejo<br>
+        </div>
+        
+        <div>
+            <label for="Observaciones"></label>
+         <textarea name="Observaciones" id="contacto" cols="30" rows="10"></textarea>
+        </div>
+        <div id="submit">
+            <input type="submit" value="Enviar">
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>

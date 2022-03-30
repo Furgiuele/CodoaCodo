@@ -1,0 +1,39 @@
+*{
+    font-size: 15px;
+}
+.textoRojo{
+    color: red;
+}
+.textoNegro{
+    color: #000;
+}
+body{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    color:crimson;
+    text-decoration-line: underline ;
+    text-decoration-color: black;
+    
+}
+
+a:hover{
+    color: brown;   
+}
+.submit{
+    color: crimson;
+    background-color: black;
+    height: 40px; 
+    border-radius: 20px;
+    text-align: center;   
+}
+ul{
+    text-align: left;
+}
+.radio{
+    text-align: center;
+}
+

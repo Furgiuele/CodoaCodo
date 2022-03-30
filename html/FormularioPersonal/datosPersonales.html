@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioPersonal</title>
+</head>
+
+<body>
+    <h2>Form con Pattern</h2>
+    <br>
+    <form action="#" method="post">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="Nombre" id="nombre" placeholder="Ingrese un nombre" pattern=".{2,40}"><br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="Apellido" id="apellido" placeholde="Ingrese su apellido"><br><br>
+        <label for="DNI"> DNI</label>
+        <input type="number" name="DNI" id="DNI" placeholder="Ingrese su DNI" required>
+        <br><br>
+        <label for="fotoDNIfrente">foto DNI(frente)</label>
+        Foto Frente:<input type="file" name="fotoDNIFrente" id="fotoDNI"><br><br>
+        <label for="fotoDNIfrente">fotoDNI(Dorso)</label>
+        Foto Dorso:<input type="file" name="fotoDNIDorso" id="fotoDNI"><br><br>
+
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+
+</html>
