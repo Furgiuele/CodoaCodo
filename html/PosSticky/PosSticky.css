@@ -3,7 +3,12 @@
     padding: 0px;
     font-size: 14px;
 }
-.Sticky{
-    
+.posSticky{
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: .5rem;
+    padding: 1rem;
+    position: sticky;
+    top: 10px;
 
 }
