@@ -1,0 +1,12 @@
+main{
+    padding: 4rem  ;
+}
+.containerMain{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerMain-bsas{
+    background-image: url("buenos aires.jpg");
+}

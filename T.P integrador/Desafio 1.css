@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-size: 16px;
+}
+.oradores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    width: 150px;
+    height: 250px;
+    border: 0.1px solid;
+    border-radius: 5px;
+    margin: .8rem .5rem;
+}
+.tarjeta img{
+    width: 150px;
+}
+.tarjeta .botones {
+    
+    margin: 0 .5rem .2rem .2rem;
+}
+.tarjeta .botones input[type="button"]{
+    border:0;
+    border-radius: .9rem;
+    text-align: center;
+}
+
+.tarjeta .botones .btnAzul{
+    color: white;
+    background-color: rgb(23, 162,188);
+    font-size: 0.5em;
+    font-weight: bold;
+    
+}
+.tarjeta .botones .btnAmarillo{
+   
+    color:black;
+    background-color: rgb(255, 194,7);;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.tarjeta .titulo{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tarjeta .titulo::first-letter{
+    text-align: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+.tarjeta .texto{
+    font-size: 0.7rem;
+
+}
+

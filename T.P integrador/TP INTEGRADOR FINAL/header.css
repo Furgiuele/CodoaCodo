@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    color: #333;
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+}
+header{
+    display: flex;
+    background: #333;
+    height: 7%;
+    padding: 0 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+header a{
+    color: grey;
+    text-decoration: none;
+}
+
+.linkVerde{
+    color: green;
+}
+.containerHeader{
+    display: flex;
+    width: 85%;
+    max-width:1920px;
+    margin: 0 auto;
+}
+header .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+header .logo-nav-container .logo{
+    padding: 0.5rem;
+    width: 100px;
+    height: 85%;
+    border-radius: 50%;
+    
+}
+.navegacion ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li{
+    display: inline-block;
+}
+.navegacion ul li a{
+    padding: 0.5rem 0.5rem;
+    display: block;
+   
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p{
+    margin-bottom: 1.6em;
+    
+}
+
+
+

@@ -1,0 +1,35 @@
+footer{
+    margin: 0;
+    background-color: #333;
+    height: 8%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    width: 100%;
+
+   
+}
+.containerfotter{
+    width: 85%;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0   auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.containerfotter .navegacion{
+    
+    color:white;
+    
+}
+.containerfotter .navegacion ul li a{
+    display: flex;
+    margin: 0 .3rem ;
+    color: rgba(255, 255, 255, 0.726);
+    text-decoration: none;   
+}
