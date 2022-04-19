@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      .card-img-top{
+        height: 200px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Codo a Codo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Desactivado</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+          <div class="card-group">
+            <div class="card">
+              <img src="data:image/webp;base64,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" class="card-img-top" alt="html5">
+              <div class="card-body">
+                <h5 class="card-title">Html</h5>
+                <p class="card-text">Contenido de la tarjeta</p>
+                <p class="card-text"><small class="text-muted">Ultima actualización: 1</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://programacion.net/files/article/article_02169_.jpg" class="card-img-top" alt="CSS">
+              <div class="card-body">
+                <h5 class="card-title">Css</h5>
+                <p class="card-text">Contenido de la tarjeta</p>
+                <p class="card-text"><small class="text-muted">Ultima actualización: 1</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/bootstrap-social-share.png" class="card-img-top" alt="Bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">Contenido de la tarjeta</p>
+                <p class="card-text"><small class="text-muted">Ultima actualización: 1</small></p>
+              </div>
+            </div>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Ingrese su email"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >Nunca comparta su email.</small
+              >
+            </div>
+            <br>
+
+            <div class="form-group">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Contraseña"
+              />
+            </div>
+            <br>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Verificar</label>
+               
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+         
+            </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
